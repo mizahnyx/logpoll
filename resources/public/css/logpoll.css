@@ -1,0 +1,38 @@
+/* http://codecamel.com/fullheight */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: auto !important;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div#log-content {
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+}
+
+div#log-content>div.tab-pane {
+    position: relative;
+    height: 100%;
+}
+
+div#log-content>div.tab-pane>table {
+    display: block;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
