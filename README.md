@@ -14,12 +14,12 @@ To start a web server for the application, run:
 
     lein ring server
 
-To build a WAR file with the application, run:
+To build a standalone WAR file with the application, run:
 
-    lein ring war
+    lein ring uberwar
 
 The file `resources/config.clj` is just a list of the full paths of the files to watch, enclosed in double quotes.
 
 ## License
 
-Copyright © 2014 Sam Jenkins.
+Copyright © 2014-2018 Sam Jenkins.
